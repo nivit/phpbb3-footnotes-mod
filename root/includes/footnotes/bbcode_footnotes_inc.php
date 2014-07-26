@@ -1,9 +1,4 @@
 <?php
-/*
- * $Revision$
- * $Author$
- * $URL$
- */
 
 if (!defined('IN_PHPBB'))
 {
