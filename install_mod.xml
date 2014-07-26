@@ -26,7 +26,7 @@
 	</header>
 	<action-group>
 		<copy>
-			<file from="root/includes/spoiler/bbcode_footnotes_inc.php" to="includes/spoiler/bbcode_footnotes_inc.php"/>
+			<file from="root/includes/footnotes/bbcode_footnotes_inc.php" to="includes/footnotes/bbcode_footnotes_inc.php"/>
 		</copy>
 		<open src="includes/bbcode.php">
 			<edit>
