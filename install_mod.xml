@@ -135,29 +135,5 @@
 ]]></action>
 			</edit>
 		</open>
-		<open src="styles/subsilver2/theme/stylesheet.css">
-			<edit>
-				<find><![CDATA[.username-coloured {
-	font-weight: bold;
-}]]></find>
-				<action type="after-add"><![CDATA[/* Footnotes MOD: start */
-.footnotes {
-	font-size: smaller !important;
-	margin-bottom: 0px !important;
-}
-.footnotes-message {
-	font-variant: small-caps;
-	font-weight: bolder !important;
-	font-size: smaller !important;
-	margin-bottom: 0px !important;
-}
-.footnotes ol li {
-	/*font-size: smaller !important;*/
-	font-size: 0.9em !important;
-}
-/* Footnotes MOD: end */
-]]></action>
-			</edit>
-		</open>
 	</action-group>
 </mod>
