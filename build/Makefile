@@ -6,7 +6,7 @@ DISTNAME =	phpbb3-footnotes-mod-$(VERSION).zip
 
 SOURCES =	root install_mod.xml *.xsl license.txt
 
-VERSION =	$(shell git tag --list --sort=-refname | head -n1)
+VERSION :=	$(shell git tag --list --sort=-refname | head -n1)
 
 ZIP :=		$(shell which zip)
 
