@@ -13,7 +13,7 @@ $footnote_tpl = <<< FOOTNOTE_TPL
 <li id="{FOOTNOTE_ID}">{FOOTNOTE_TEXT} <a href="#{FOOTNOTE_ARTICLE_ID}" title="Back to article">&#8593;</a></li>
 FOOTNOTE_TPL;
 
-$footnotes_tpl = '<hr></hr><div class="footnotes"><p class="footnotes-message">Note</p><ol>';
+$footnotes_tpl = '<hr></hr><div class="footnotes"><p class="footnotes-message">Notes</p><ol>';
 
 $footnotes_search = array('{FOOTNOTE_ID}', '{FOOTNOTE_ARTICLE_ID}', '{FOOTNOTE_NUMBER}', '{FOOTNOTE_TEXT}');
 
