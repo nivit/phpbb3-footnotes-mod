@@ -1,3 +1,4 @@
+#
 # Gnu Makefile
 #
 DESTDIR ?=	/tmp
@@ -21,3 +22,6 @@ else
 	$(ZIP) -r $(DESTDIR)/$(DISTNAME) $(SOURCES))
 endif
 endif
+
+clean:
+	@rm -f $(DESTDIR)/$(DISTNAME)
