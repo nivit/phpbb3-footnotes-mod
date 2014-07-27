@@ -1,7 +1,7 @@
 #
 # Gnu Makefile
 #
-DESTDIR ?=	/tmp
+DESTDIR ?=	build
 DISTNAME =	phpbb3-footnotes-mod-$(VERSION).zip
 
 SOURCES =	root install_mod.xml *.xsl license.txt
@@ -24,4 +24,5 @@ endif
 endif
 
 clean:
-	@rm -f $(DESTDIR)/$(DISTNAME)
+	@(cd .. && \
+	rm -f $(DESTDIR)/$(DISTNAME))
