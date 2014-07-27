@@ -135,5 +135,17 @@
 ]]></action>
 			</edit>
 		</open>
+		<diy-instructions lang="en"><![CDATA[To complete the installation go to the Administration Control Panel and click on the CONTENTS tab.
+Click on "Added new BBCode" and insert the following line in the "BBCode usage" textarea:
+
+[note]{TEXT}[/note]
+
+Then add
+
+Add note on the bottom of the message
+
+in the "Help line" input line.
+
+Finally check the "Display on posting page" box and then press "Submit".]]></diy-instructions>
 	</action-group>
 </mod>
